@@ -1,0 +1,11 @@
+git config --global user.name 'Mention the user name' 
+git config --global user.email 'Mention the user email id'
+
+git init (to Initial the project or repository)
+git status (to get the latest status, is their any file which is not commited or staged yet)
+git add 'Full file name' (use to add untracked files)
+git commit (use to commit changes which are added)
+       After commit vim editor windows opens up, have to click 'i' and then add the message and        then click Esc : wq and click enter to escape from vim editor.
+
+git add -A (to add all modified and newly added files in staging area)
+git commit -m "'commit message'" (to commit with message without using vim editor commands)
