@@ -9,3 +9,6 @@ git commit (use to commit changes which are added)
 
 git add -A (to add all modified and newly added files in staging area)
 git commit -m "'commit message'" (to commit with message without using vim editor commands)
+
+git checkout fileName (to get last commited version of that file)
+git checkout -f (to get last commited version of all files)
