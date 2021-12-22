@@ -9,6 +9,7 @@ git commit (use to commit changes which are added)
 
 git add -A (to add all modified and newly added files in staging area)
 git commit -m "'commit message'" (to commit with message without using vim editor commands)
+git commit -a -m "Commit msg" (commit without staging area)
 
 git checkout fileName (to get last commited version of that file)
 git checkout -f (to get last commited version of all files)
@@ -16,4 +17,5 @@ git checkout -f (to get last commited version of all files)
 git log (to check the log of commit)
 git log -p -3(to check the commits of specific number of log )
 
-git diff
+git diff (to check diff between loacl directory and staging directory)
+git diff --staged
