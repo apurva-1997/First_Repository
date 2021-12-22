@@ -19,3 +19,20 @@ git log -p -3(to check the commits of specific number of log )
 
 git diff (to check diff between loacl directory and staging directory)
 git diff --staged
+
+git rm "File name" (to delete the file from local and staging area)
+git rm --cached (to delete the file from statging area not from localgit )
+
+.gitignore file is used to ignore file, we just want to specify the name of that file which we suppose to ignore.
+use "/" in .gitignore file to specify the log from current location only
+use "*" and then file extension to ignore all files who has same extension.
+
+
+BRANCH
+git branch "BranchName" (to create new branch)
+git branch (to check all the branches)
+git checkout "BranchName" (to switched the branch )
+
+MERGED
+first go to the branch where you want to commit
+git merge "branchName"
