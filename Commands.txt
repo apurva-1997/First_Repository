@@ -33,6 +33,8 @@ git branch "BranchName" (to create new branch)
 git branch (to check all the branches)
 git checkout "BranchName" (to switched the branch )
 
+git checkout -b "BranchName" (create new brnach and directly move into that branch)
+
 MERGED
 first go to the branch where you want to commit
 git merge "branchName"
